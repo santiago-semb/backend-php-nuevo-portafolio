@@ -1,0 +1,47 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#title-g{ 
+    text-transform: uppercase;
+}
+
+#title-bbdd {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.header {
+    width: 80%;
+    background-color: rgb(211, 114, 49);
+    margin: 0 auto;
+    text-align: center;
+    height: 60px;
+    border-left: 5px double whitesmoke;
+    border-right: 5px double whitesmoke;
+    border-bottom: 2px solid black;
+}
+
+#menu {
+    text-align: center;
+    background-color: gainsboro;
+    height: 40px;
+    line-height: 35px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: 200ms all;
+}
+
+#menu a:hover {
+    color: rgb(211, 114, 49);
+}
+
+::selection { 
+    background: #f86011; /*Color naranja para el fondo*/
+    color:#fff;  /*Color blanco para el texto seleccionado*/
+}

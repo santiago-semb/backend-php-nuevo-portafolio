@@ -1,0 +1,39 @@
+.content {
+    background-color: whitesmoke;
+    width: 90%;
+    height: 570px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0.4em;
+}
+
+#bloque {
+    background-color: gainsboro;
+    border-radius: 0.4em;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    transition: 400ms all;
+    margin: 10px;
+}
+
+#bloque:hover {
+    background-color: rgb(211, 114, 49);
+}
+
+#div-opcion {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+#opcion {
+    font-size: 15px;
+}
+
+#logo {
+    font-size: 70px;
+    margin-top: 70px;
+}
+
